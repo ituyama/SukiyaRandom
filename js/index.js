@@ -1,0 +1,304 @@
+const menu = [{
+        name: "食べラー・メンマ牛丼",
+        price: 580
+    },
+    {
+        name: "にんにく食べラー・メンマ牛丼",
+        price: 640
+    },
+    {
+        name: "ピリ辛ゴマだれ食べラー・メンマ牛丼",
+        price: 630
+    },
+    {
+        name: "にんにくピリ辛ゴマだれ食べラー・メンマ牛丼",
+        price: 690
+    },
+    {
+        name: "牛丼",
+        price: 400
+    },
+
+    {
+        name: "キムチ牛丼",
+        price: 550
+    },
+
+    {
+        name: "ねぎ玉牛丼",
+        price: 550
+    },
+
+    {
+        name: "とろ〜り3種のチーズ牛丼",
+        price: 580
+    },
+    {
+        name: "おろしポン酢牛丼",
+        price: 550
+    },
+    {
+        name: "高菜明太マヨ牛丼",
+        price: 550
+    },
+    {
+        name: "わさび山かけ牛丼",
+        price: 550
+    },
+    {
+        name: "にんにくファイヤー牛丼",
+        price: 520
+    },
+    {
+        name: "マヨにんにくファイヤー牛丼",
+        price: 570
+    },
+    {
+        name: "食べラー・メンマ牛丼ライト",
+        price: 660
+    },
+    {
+        name: "牛丼ライト",
+        price: 480
+    },
+    {
+        name: "キムチ牛丼ライト",
+        price: 630
+    }, {
+        name: "ねぎ玉牛丼ライト",
+        price: 630
+    },
+    {
+        name: "とろ〜り３種のチーズ牛丼ライト",
+        price: 660
+    },
+    {
+        name: "おろしポン酢牛丼ライト",
+        price: 630
+    },
+    {
+        name: "高菜明太マヨ牛丼ライト",
+        price: 630
+    },
+    {
+        name: "わさび山かけ牛丼ライト",
+        price: 630
+    },
+
+    {
+        name: "かつぶしオクラ牛丼ライト",
+        price: 630
+    },
+
+
+    {
+        name: "食べラー・メンマ",
+        price: 180
+    },
+
+    {
+        name: "ラー油",
+        price: 70
+    },
+    {
+        name: "ガリガリファイヤー単品",
+        price: 60
+    },
+    {
+        name: "みそ汁",
+        price: 80
+    },
+    {
+        name: "とん汁",
+        price: 190
+    },
+    {
+        name: "おしんこ",
+        price: 90
+    },
+    {
+        name: "たまご",
+        price: 60
+    },
+    {
+        name: "おんたま",
+        price: 80
+    },
+    {
+        name: "シーザーサラダ",
+        price: 220
+    },
+    {
+        name: "サラダ",
+        price: 160
+    },
+    {
+        name: "オクラサラダ",
+        price: 200
+    },
+    {
+        name: "カットりんご",
+        price: 110
+    },
+    {
+        name: "牛皿",
+        price: 300
+    },
+    {
+        name: "まぐろたたき皿",
+        price: 490
+    },
+    {
+        name: "かつぶしオクラ",
+        price: 150
+    },
+    {
+        name: "季節のひじき煮",
+        price: 80
+    },
+    {
+        name: "さば",
+        price: 280
+    },
+    {
+        name: "鮭",
+        price: 280
+    },
+    {
+        name: "からあげ",
+        price: 100
+    },
+    {
+        name: "冷やっこ",
+        price: 130
+    },
+    {
+        name: "納豆",
+        price: 90
+    },
+        {
+        name: "ごはん",
+        price: 160
+    },
+
+        {
+        name: "フライドにんにく",
+        price: 60
+    },
+
+        {
+        name: "キムチ",
+        price: 150
+    },
+
+        {
+        name: "山かけ(わさび付)",
+        price: 150
+    },
+
+        {
+        name: "おろしポン酢",
+        price: 150
+    },
+
+        {
+        name: "高菜明太マヨ",
+        price: 150
+    },
+
+        {
+        name: "高菜",
+        price: 120
+    },
+
+        {
+        name: "明太マヨ",
+        price: 40
+    },
+
+
+        {
+        name: "青ねぎ",
+        price: 80
+    },
+
+        {
+        name: "のり",
+        price: 30
+    },
+    {
+        name: "マヨネーズ",
+        price: 50
+    },
+
+
+        {
+        name: "ゴマだれ",
+        price: 50
+    },
+
+
+
+       {
+        name: "旨辛ダレ",
+        price: 40
+    },
+
+              {
+        name: "コチュジャンだれ",
+        price: 40
+    }
+
+
+]
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
+}
+
+function ChoiceGyudon() {
+    return menu[getRandomInt(0,21)]
+}
+function ChoiceRandom() {
+    fs=ChoiceGyudon()
+    var price=fs.price
+    var MenuList = [fs.name]
+    var MenuPriceList= [fs.price]
+    var res 
+    var TotalList=[fs]
+    
+    while (price < 1000) {
+   
+        MenuNow = menu[getRandomInt(22, 56)]
+   
+        MenuList[MenuList.length] = MenuNow.name
+        MenuPriceList[MenuPriceList.length] = MenuNow.price
+        TotalList[TotalList.length] = MenuNow
+       
+     
+        price = price + MenuNow.price
+    
+        res = [MenuList, MenuPriceList]
+        
+    }
+    if (price > 1000) {
+            res[0].pop();
+        res[1].pop();
+        TotalList.pop()
+         
+
+    }
+    res[2] = MenuPriceList.reduce(function (a, b) { return a + b; });
+  
+
+//
+      
+
+    TotalList[TotalList.length] = { Total:res[2]}
+    return TotalList
+
+}
+
+
+console.log("答え",ChoiceRandom())

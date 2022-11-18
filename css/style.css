@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+body{
+    background-color: #EDEDED;
+font-family: 'Noto Sans JP', sans-serif;
+}
+.MainColor{
+    color: #F19020;
+    font-weight: 800;
+    
+}
+.MainSize{
+    font-size: 50px;
+}
+.MarginTop-100{
+    margin-top: 100px;
+}
+.MarginTop-200{
+    margin-top: 200px;
+}
+.MarginTop-300{
+    margin-top: 300px;
+}
+.btn{
+    background-color: #FFB800;
+    color: white;
+    font-size: 20px;
+    padding: 20,30;
+    
+
+}
+
+.center{
+    text-align: center;
+    border: 0 auto;
+    padding: 0 auto;
+
+}
+.card{
+    border: none;
+    background-color: #D9D9D9;
+}
