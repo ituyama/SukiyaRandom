@@ -339,6 +339,6 @@ shareUrl += '&url='+encodeURIComponent('\nhttps://ituyama.com/SukiyaRandom\n');
 shareUrl+='&hashtags=すき家1000円ガチャ'
     var shareArea = document.getElementById('twitter-share');
     
-var shareLink = "<a target='_blank' href="+shareUrl +" class='bi bi-twitter'>Share!</a>";
+var shareLink = "<a target='_blank' href="+shareUrl +" class='bi  bi-twitter twitter-share'>Share!</a>";
 shareArea.innerHTML = shareLink;
 }
