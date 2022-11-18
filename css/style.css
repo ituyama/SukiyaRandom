@@ -42,6 +42,19 @@ body {
     padding: 0 auto;
 
 }
+.Retry{
+    z-index: 200;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    background-color: #FFB800;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 800
+    ;
+}
 .twitter-share{
     z-index: 200;
     position: fixed;
@@ -67,4 +80,7 @@ padding: 10px;
 }
 .right{
     text-align: right;
+}
+.content{
+    margin-bottom: 100px;
 }
