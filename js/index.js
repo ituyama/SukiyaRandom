@@ -324,7 +324,7 @@ function AddHTML() {
     }
     strs = strs + "<div class='col-md-6'><div class='card'><p class='left'>合計" + ins[ins.length-1].Total +"円</p></div></div>"
     document.getElementById('content').innerHTML = strs;
-    share_url = "合計"+share_url + ins[ins.length - 1].Total + "円";
+    share_url = share_url + "合計"+ins[ins.length - 1].Total + "円";
     console.log(strs)
     ShareTwitter(share_url)
 }
