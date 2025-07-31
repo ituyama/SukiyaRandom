@@ -5,53 +5,42 @@ function getRandomInt(min, max) {
 }
 
 function ChoiceGyudon(menu) {
-    return menu[getRandomInt(0, 21)]
+    const gyudonMenu = menu.main;
+    return gyudonMenu[getRandomInt(0, gyudonMenu.length)];
+}
+
+function ChoiceSideMenu(menu) {
+    const sideMenu = menu.side;
+    return sideMenu[getRandomInt(0, sideMenu.length)];
 }
 
 function ChoiceRandom(menu) {
-    fs = ChoiceGyudon(menu)
-    var price = fs.price
-    var MenuList = [fs.name]
-    var MenuPriceList = [fs.price]
-    var res
-    var TotalList = [fs]
+    const firstChoice = ChoiceGyudon(menu);
+    const defaultVariation = firstChoice.variations.find(v => v.key === firstChoice.defaultVariationKey);
+
+    let price = defaultVariation.price;
+    const MenuList = [firstChoice.name + `（${defaultVariation.variationPrefix}）`];
+    const MenuPriceList = [defaultVariation.price];
+    const TotalList = [{ name: MenuList[0], price: MenuPriceList[0] }];
 
     while (price < 1000) {
-
-        MenuNow = menu[getRandomInt(22, 56)]
-
-        MenuList[MenuList.length] = MenuNow.name
-        MenuPriceList[MenuPriceList.length] = MenuNow.price
-        TotalList[TotalList.length] = MenuNow
-
-        price = price + MenuNow.price
-
-        res = [MenuList, MenuPriceList]
-
+        const MenuNow = ChoiceSideMenu(menu);
+        MenuList.push(MenuNow.name);
+        MenuPriceList.push(MenuNow.price);
+        TotalList.push(MenuNow);
+        price += MenuNow.price;
     }
-
 
     if (price > 1000) {
-        res[0].pop();
-        res[1].pop();
-        TotalList.pop()
-
-
+        MenuList.pop();
+        MenuPriceList.pop();
+        TotalList.pop();
     }
 
-    res[2] = MenuPriceList.reduce(function (a, b) {
-        return a + b;
-    });
+    const total = MenuPriceList.reduce((a, b) => a + b, 0);
+    TotalList.push({ Total: total });
 
-
-    //
-
-
-    TotalList[TotalList.length] = {
-        Total: res[2]
-    }
-    return TotalList
-
+    return TotalList;
 }
 
 function AddHTML() {
