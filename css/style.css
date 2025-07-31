@@ -1,86 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
 body {
-    background-color: #EDEDED;
-    font-family: 'Noto Sans JP', sans-serif;
+	background-color: #ededed;
+	font-family: "Noto Sans JP", sans-serif;
 }
 
 .MainColor {
-    color: #F19020;
-    font-weight: 800;
-
+	color: #f19020;
+	font-weight: 800;
 }
 
 .MainSize {
-    font-size: 50px;
+	font-size: 50px;
 }
 
 .MarginTop-100 {
-    margin-top: 100px;
+	margin-top: 100px;
 }
 
 .MarginTop-200 {
-    margin-top: 200px;
+	margin-top: 200px;
 }
 
 .MarginTop-300 {
-    margin-top: 300px;
+	margin-top: 300px;
 }
 
 .btn {
-    background-color: #FFB800;
-    color: white;
-    font-size: 20px;
-    padding: 20, 30;
-
-
+	background-color: #ffb800;
+	color: white;
+	font-size: 20px;
+	padding: 20, 30;
 }
 
 .center {
-    text-align: center;
-    border: 0 auto;
-    padding: 0 auto;
-
+	text-align: center;
+	border: 0 auto;
+	padding: 0 auto;
 }
-.Retry{
-    z-index: 200;
-    position: fixed;
-    left: 20px;
-    bottom: 20px;
-    background-color: #FFB800;
-    border-radius: 20px;
-    color: white;
-    padding: 20px;
-    font-size: 20px;
-    font-weight: 800
-    ;
+.Retry {
+	z-index: 200;
+	position: fixed;
+	left: 20px;
+	bottom: 20px;
+	background-color: #ffb800;
+	border-radius: 20px;
+	color: white;
+	padding: 20px;
+	font-size: 20px;
+	font-weight: 800;
 }
-.twitter-share{
-    z-index: 200;
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
+.twitter-share {
+	z-index: 200;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
 
-    background-color: white;
-    color: #1d9bf0;
-    border-radius: 20px;
-    padding: 20px;
-    font-size: 20px;
+	background-color: white;
+	color: #1d9bf0;
+	border-radius: 20px;
+	padding: 20px;
+	font-size: 20px;
 }
 .card {
-    border: none;
-    background-color: #D9D9D9;
-margin: 10px;
-padding: 10px;
-
+	border: none;
+	background-color: #d9d9d9;
+	margin: 10px;
+	padding: 10px;
 }
 
 .left {
-    text-align: left;
+	text-align: left;
 }
-.right{
-    text-align: right;
+.right {
+	text-align: right;
 }
-.content{
-    margin-bottom: 100px;
+.content {
+	margin-bottom: 100px;
 }

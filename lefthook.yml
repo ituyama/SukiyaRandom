@@ -1,0 +1,5 @@
+pre-commit:  
+  jobs:
+    - name: Run Biome Format
+      run: bun run biome format {stage_fixed}
+      stage_fixed: true
