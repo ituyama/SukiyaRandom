@@ -1,9 +1,8 @@
-# ✅ Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to GitHub Pages
 
 on:
   push:
-    branches: ["main"]  # ← デフォルトブランチに合わせて変更可
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -30,10 +29,10 @@ jobs:
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v2
 
-      - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Upload static files
+        uses: actions/upload-pages-artifact@v2  # ✅ 最新バージョン
         with:
-          path: '.'  # ← 公開したいディレクトリに変更可能（例: './dist'）
+          path: '.'  # 必要に応じて dist や public に変更
 
       - name: Deploy to GitHub Pages
         id: deploy
