@@ -2,7 +2,7 @@ name: Deploy static content to GitHub Pages
 
 on:
   push:
-    branches: ["main"]  # ← 必要に応じてブランチ名変更
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -30,10 +30,9 @@ jobs:
         uses: actions/configure-pages@v2
 
       - name: Upload static files
-        uses: actions/upload-artifact@v4 
-
+        uses: actions/upload-pages-artifact@v1
         with:
-          path: '.'  # ← ルートをアップロード。必要に応じて "./public" などに変更
+          path: '.'  # ← アップロード対象のディレクトリ
 
       - name: Deploy to GitHub Pages
         id: deployment
