@@ -2,7 +2,7 @@ name: Deploy static content to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main"]  # ← 必要に応じて他のブランチに変更
   workflow_dispatch:
 
 permissions:
@@ -29,10 +29,10 @@ jobs:
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v2
 
-      - name: Upload static files
-        uses: actions/upload-pages-artifact@v2  # ✅ 最新バージョン
+      - name: Upload static site files
+        uses: actions/upload-pages-artifact@v2  # ✅ ← v2じゃないとエラー出ます
         with:
-          path: '.'  # 必要に応じて dist や public に変更
+          path: '.'  # ← 静的ファイルがあるディレクトリ（例: './dist' や './public'）
 
       - name: Deploy to GitHub Pages
         id: deploy
