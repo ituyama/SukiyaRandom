@@ -1,8 +1,9 @@
+# ✅ 最新仕様に対応した GitHub Pages デプロイワークフロー
 name: Deploy static content to GitHub Pages
 
 on:
   push:
-    branches: ["main"]  # ← 必要に応じて他のブランチに変更
+    branches: ["main"]  # ← デプロイ対象のブランチ（必要に応じて変更）
   workflow_dispatch:
 
 permissions:
@@ -18,21 +19,21 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url }}  # ← id:deploy に合わせて変更
 
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v3
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v2
 
-      - name: Upload static site files
-        uses: actions/upload-pages-artifact@v2  # ✅ ← v2じゃないとエラー出ます
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v2  # ✅ ← v2に更新（重要）
         with:
-          path: '.'  # ← 静的ファイルがあるディレクトリ（例: './dist' や './public'）
+          path: '.'  # ← デプロイ対象のディレクトリ（例: ./dist や ./public）
 
       - name: Deploy to GitHub Pages
         id: deploy
