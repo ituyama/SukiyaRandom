@@ -20,7 +20,7 @@ function ChoiceRandom(menu) {
 
 	let price = randomVariation.price;
 	const MenuList = [
-		firstChoice.name + `（${randomVariation.variationPrefix}）`,
+		firstChoice.name + (randomVariation.variationPrefix ? `（${randomVariation.variationPrefix}）` : ''),
 	];
 	const MenuPriceList = [randomVariation.price];
 	const TotalList = [{ name: MenuList[0], price: MenuPriceList[0] }];
