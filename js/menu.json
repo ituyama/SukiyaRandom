@@ -40,8 +40,28 @@
 			"name": "牛丼",
 			"variations": [
 				{
+					"variationPrefix": "ミニ",
+					"price": 430
+				},
+				{
 					"variationPrefix": "並盛",
-					"price": 400
+					"price": 480
+				},
+				{
+					"variationPrefix": "中盛",
+					"price": 650
+				},
+				{
+					"variationPrefix": "大盛",
+					"price": 680
+				},
+				{
+					"variationPrefix": "特盛",
+					"price": 880
+				},
+				{
+					"variationPrefix": "メガ",
+					"price": 1030
 				}
 			]
 		},
@@ -49,8 +69,28 @@
 			"name": "キムチ牛丼",
 			"variations": [
 				{
+					"variationPrefix": "ミニ",
+					"price": 640
+				},
+				{
 					"variationPrefix": "並盛",
-					"price": 550
+					"price": 690
+				},
+				{
+					"variationPrefix": "中盛",
+					"price": 860
+				},
+				{
+					"variationPrefix": "大盛",
+					"price": 890
+				},
+				{
+					"variationPrefix": "特盛",
+					"price": 1090
+				},
+				{
+					"variationPrefix": "メガ",
+					"price": 1240
 				}
 			]
 		},
@@ -58,8 +98,28 @@
 			"name": "ねぎ玉牛丼",
 			"variations": [
 				{
+					"variationPrefix": "ミニ",
+					"price": 640
+				},
+				{
 					"variationPrefix": "並盛",
-					"price": 550
+					"price": 690
+				},
+				{
+					"variationPrefix": "中盛",
+					"price": 860
+				},
+				{
+					"variationPrefix": "大盛",
+					"price": 890
+				},
+				{
+					"variationPrefix": "特盛",
+					"price": 1090
+				},
+				{
+					"variationPrefix": "メガ",
+					"price": 1240
 				}
 			]
 		},
@@ -67,17 +127,57 @@
 			"name": "とろ〜り3種のチーズ牛丼",
 			"variations": [
 				{
+					"variationPrefix": "ミニ",
+					"price": 640
+				},
+				{
 					"variationPrefix": "並盛",
-					"price": 580
+					"price": 690
+				},
+				{
+					"variationPrefix": "中盛",
+					"price": 860
+				},
+				{
+					"variationPrefix": "大盛",
+					"price": 890
+				},
+				{
+					"variationPrefix": "特盛",
+					"price": 1090
+				},
+				{
+					"variationPrefix": "メガ",
+					"price": 1240
 				}
 			]
 		},
 		{
-			"name": "おろしポン酢牛丼",
+			"name": "鬼おろしポン酢牛丼",
 			"variations": [
 				{
+					"variationPrefix": "ミニ",
+					"price": 580
+				},
+				{
 					"variationPrefix": "並盛",
-					"price": 550
+					"price": 630
+				},
+				{
+					"variationPrefix": "中盛",
+					"price": 800
+				},
+				{
+					"variationPrefix": "大盛",
+					"price": 830
+				},
+				{
+					"variationPrefix": "特盛",
+					"price": 1030
+				},
+				{
+					"variationPrefix": "メガ",
+					"price": 1180
 				}
 			]
 		},
@@ -85,8 +185,28 @@
 			"name": "高菜明太マヨ牛丼",
 			"variations": [
 				{
+					"variationPrefix": "ミニ",
+					"price": 640
+				},
+				{
 					"variationPrefix": "並盛",
-					"price": 550
+					"price": 690
+				},
+				{
+					"variationPrefix": "中盛",
+					"price": 860
+				},
+				{
+					"variationPrefix": "大盛",
+					"price": 890
+				},
+				{
+					"variationPrefix": "特盛",
+					"price": 1090
+				},
+				{
+					"variationPrefix": "メガ",
+					"price": 1240
 				}
 			]
 		},
@@ -94,8 +214,57 @@
 			"name": "わさび山かけ牛丼",
 			"variations": [
 				{
+					"variationPrefix": "ミニ",
+					"price": 640
+				},
+				{
 					"variationPrefix": "並盛",
-					"price": 550
+					"price": 690
+				},
+				{
+					"variationPrefix": "中盛",
+					"price": 860
+				},
+				{
+					"variationPrefix": "大盛",
+					"price": 890
+				},
+				{
+					"variationPrefix": "特盛",
+					"price": 1090
+				},
+				{
+					"variationPrefix": "メガ",
+					"price": 1240
+				}
+			]
+		},
+		{
+			"name": "かつぶしオクラ牛丼",
+			"variations": [
+				{
+					"variationPrefix": "ミニ",
+					"price": 580
+				},
+				{
+					"variationPrefix": "並盛",
+					"price": 630
+				},
+				{
+					"variationPrefix": "中盛",
+					"price": 800
+				},
+				{
+					"variationPrefix": "大盛",
+					"price": 830
+				},
+				{
+					"variationPrefix": "特盛",
+					"price": 1030
+				},
+				{
+					"variationPrefix": "メガ",
+					"price": 1180
 				}
 			]
 		},
@@ -130,8 +299,16 @@
 			"name": "牛丼ライト",
 			"variations": [
 				{
-					"variationPrefix": "並盛",
-					"price": 480
+					"variationPrefix": "お肉ミニ",
+					"price": 530
+				},
+				{
+					"variationPrefix": "お肉並盛",
+					"price": 580
+				},
+				{
+					"variationPrefix": "お肉大盛",
+					"price": 730
 				}
 			]
 		},
@@ -139,8 +316,16 @@
 			"name": "キムチ牛丼ライト",
 			"variations": [
 				{
-					"variationPrefix": "並盛",
-					"price": 630
+					"variationPrefix": "お肉ミニ",
+					"price": 740
+				},
+				{
+					"variationPrefix": "お肉並盛",
+					"price": 790
+				},
+				{
+					"variationPrefix": "お肉大盛",
+					"price": 940
 				}
 			]
 		},
@@ -148,8 +333,16 @@
 			"name": "ねぎ玉牛丼ライト",
 			"variations": [
 				{
-					"variationPrefix": "並盛",
-					"price": 630
+					"variationPrefix": "お肉ミニ",
+					"price": 740
+				},
+				{
+					"variationPrefix": "お肉並盛",
+					"price": 790
+				},
+				{
+					"variationPrefix": "お肉大盛",
+					"price": 940
 				}
 			]
 		},
@@ -157,17 +350,33 @@
 			"name": "とろ〜り３種のチーズ牛丼ライト",
 			"variations": [
 				{
-					"variationPrefix": "並盛",
-					"price": 660
+					"variationPrefix": "お肉ミニ",
+					"price": 740
+				},
+				{
+					"variationPrefix": "お肉並盛",
+					"price": 790
+				},
+				{
+					"variationPrefix": "お肉大盛",
+					"price": 940
 				}
 			]
 		},
 		{
-			"name": "おろしポン酢牛丼ライト",
+			"name": "鬼おろしポン酢牛丼ライト",
 			"variations": [
 				{
-					"variationPrefix": "並盛",
-					"price": 630
+					"variationPrefix": "お肉ミニ",
+					"price": 680
+				},
+				{
+					"variationPrefix": "お肉並盛",
+					"price": 730
+				},
+				{
+					"variationPrefix": "お肉大盛",
+					"price": 880
 				}
 			]
 		},
@@ -175,8 +384,16 @@
 			"name": "高菜明太マヨ牛丼ライト",
 			"variations": [
 				{
-					"variationPrefix": "並盛",
-					"price": 630
+					"variationPrefix": "お肉ミニ",
+					"price": 740
+				},
+				{
+					"variationPrefix": "お肉並盛",
+					"price": 790
+				},
+				{
+					"variationPrefix": "お肉大盛",
+					"price": 940
 				}
 			]
 		},
@@ -184,8 +401,16 @@
 			"name": "わさび山かけ牛丼ライト",
 			"variations": [
 				{
-					"variationPrefix": "並盛",
-					"price": 630
+					"variationPrefix": "お肉ミニ",
+					"price": 740
+				},
+				{
+					"variationPrefix": "お肉並盛",
+					"price": 790
+				},
+				{
+					"variationPrefix": "お肉大盛",
+					"price": 940
 				}
 			]
 		},
@@ -193,8 +418,785 @@
 			"name": "かつぶしオクラ牛丼ライト",
 			"variations": [
 				{
+					"variationPrefix": "お肉ミニ",
+					"price": 680
+				},
+				{
+					"variationPrefix": "お肉並盛",
+					"price": 730
+				},
+				{
+					"variationPrefix": "お肉大盛",
+					"price": 880
+				}
+			]
+		},
+		{
+			"name": "カレー",
+			"variations": [
+				{
+					"variationPrefix": "ミニ",
+					"price": 390
+				},
+				{
 					"variationPrefix": "並盛",
+					"price": 490
+				},
+				{
+					"variationPrefix": "大盛",
 					"price": 630
+				},
+				{
+					"variationPrefix": "メガ",
+					"price": 890
+				}
+			]
+		},
+		{
+			"name": "牛カレー",
+			"variations": [
+				{
+					"variationPrefix": "ミニ",
+					"price": 690
+				},
+				{
+					"variationPrefix": "並盛",
+					"price": 790
+				},
+				{
+					"variationPrefix": "大盛",
+					"price": 930
+				},
+				{
+					"variationPrefix": "メガ",
+					"price": 1190
+				}
+			]
+		},
+		{
+			"name": "とろ〜りチーズカレー",
+			"variations": [
+				{
+					"variationPrefix": "ミニ",
+					"price": 590
+				},
+				{
+					"variationPrefix": "並盛",
+					"price": 690
+				},
+				{
+					"variationPrefix": "大盛",
+					"price": 830
+				},
+				{
+					"variationPrefix": "メガ",
+					"price": 1090
+				}
+			]
+		},
+		{
+			"name": "とろ〜りチーズカレー",
+			"variations": [
+				{
+					"variationPrefix": "ミニ",
+					"price": 590
+				},
+				{
+					"variationPrefix": "並盛",
+					"price": 690
+				},
+				{
+					"variationPrefix": "大盛",
+					"price": 830
+				},
+				{
+					"variationPrefix": "メガ",
+					"price": 1090
+				}
+			]
+		},
+		{
+			"name": "おんたまカレー",
+			"variations": [
+				{
+					"variationPrefix": "ミニ",
+					"price": 500
+				},
+				{
+					"variationPrefix": "並盛",
+					"price": 600
+				},
+				{
+					"variationPrefix": "大盛",
+					"price": 740
+				},
+				{
+					"variationPrefix": "メガ",
+					"price": 1000
+				}
+			]
+		},
+		{
+			"name": "ソーセージカレー",
+			"variations": [
+				{
+					"variationPrefix": "ミニ",
+					"price": 690
+				},
+				{
+					"variationPrefix": "並盛",
+					"price": 790
+				},
+				{
+					"variationPrefix": "大盛",
+					"price": 930
+				},
+				{
+					"variationPrefix": "メガ",
+					"price": 1190
+				}
+			]
+		},
+		{
+			"name": "肉2倍牛カレー",
+			"variations": [
+				{
+					"variationPrefix": "ミニ",
+					"price": 890
+				},
+				{
+					"variationPrefix": "並盛",
+					"price": 990
+				},
+				{
+					"variationPrefix": "大盛",
+					"price": 1130
+				},
+				{
+					"variationPrefix": "メガ",
+					"price": 1390
+				}
+			]
+		},
+		{
+			"name": "おんたま牛カレー",
+			"variations": [
+				{
+					"variationPrefix": "ミニ",
+					"price": 790
+				},
+				{
+					"variationPrefix": "並盛",
+					"price": 890
+				},
+				{
+					"variationPrefix": "大盛",
+					"price": 1030
+				},
+				{
+					"variationPrefix": "メガ",
+					"price": 1290
+				}
+			]
+		},
+		{
+			"name": "チーズ牛カレー",
+			"variations": [
+				{
+					"variationPrefix": "ミニ",
+					"price": 890
+				},
+				{
+					"variationPrefix": "並盛",
+					"price": 990
+				},
+				{
+					"variationPrefix": "大盛",
+					"price": 1130
+				},
+				{
+					"variationPrefix": "メガ",
+					"price": 1390
+				}
+			]
+		},
+		{
+			"name": "チーズソーセージカレー",
+			"variations": [
+				{
+					"variationPrefix": "ミニ",
+					"price": 890
+				},
+				{
+					"variationPrefix": "並盛",
+					"price": 990
+				},
+				{
+					"variationPrefix": "大盛",
+					"price": 1130
+				},
+				{
+					"variationPrefix": "メガ",
+					"price": 1390
+				}
+			]
+		},
+		{
+			"name": "チーズほうれん草カレー",
+			"variations": [
+				{
+					"variationPrefix": "ミニ",
+					"price": 690
+				},
+				{
+					"variationPrefix": "並盛",
+					"price": 790
+				},
+				{
+					"variationPrefix": "大盛",
+					"price": 930
+				},
+				{
+					"variationPrefix": "メガ",
+					"price": 1190
+				}
+			]
+		},
+		{
+			"name": "牛あいがけ",
+			"variations": [
+				{
+					"variationPrefix": "",
+					"price": 300
+				},
+				{
+					"variationPrefix": "2倍盛",
+					"price": 500
+				}
+			]
+		},
+		{
+			"name": "牛・お食事サラダ",
+			"variations": [
+				{
+					"variationPrefix": "",
+					"price": 650
+				}
+			]
+		},
+		{
+			"name": "チキン・お食事サラダ",
+			"variations": [
+				{
+					"variationPrefix": "",
+					"price": 650
+				}
+			]
+		},
+		{
+			"name": "まぐろユッケ丼",
+			"variations": [
+				{
+					"variationPrefix": "並盛",
+					"price": 800
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 850
+				},
+				{
+					"variationPrefix": "特盛（まぐろたたき2倍ごはん大盛）",
+					"price": 1110
+				}
+			]
+		},
+		{
+			"name": "山かけまぐろたたき丼",
+			"variations": [
+				{
+					"variationPrefix": "並盛",
+					"price": 830
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 880
+				},
+				{
+					"variationPrefix": "特盛（まぐろたたき2倍ごはん大盛）",
+					"price": 1140
+				}
+			]
+		},
+		{
+			"name": "まぐろたたき丼",
+			"variations": [
+				{
+					"variationPrefix": "並盛",
+					"price": 680
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 730
+				},
+				{
+					"variationPrefix": "特盛（まぐろたたき2倍ごはん大盛）",
+					"price": 990
+				}
+			]
+		},
+		{
+			"name": "旨だしとりそぼろ丼",
+			"variations": [
+				{
+					"variationPrefix": "ミニ",
+					"price": 480
+				},
+				{
+					"variationPrefix": "並盛",
+					"price": 500
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 550
+				},
+				{
+					"variationPrefix": "特盛（とりそぼろ2倍ごはん大盛）",
+					"price": 790
+				}
+			]
+		},
+		{
+			"name": "牛皿定食",
+			"variations": [
+				{
+					"variationPrefix": "（肉）並盛",
+					"price": 680
+				},
+				{
+					"variationPrefix": "（肉）中盛",
+					"price": 850
+				},
+				{
+					"variationPrefix": "（肉）2倍盛",
+					"price": 1030
+				}
+			]
+		},
+		{
+			"name": "鬼おろしポン酢牛皿定食",
+			"variations": [
+				{
+					"variationPrefix": "（肉）並盛",
+					"price": 780
+				},
+				{
+					"variationPrefix": "（肉）中盛",
+					"price": 950
+				},
+				{
+					"variationPrefix": "（肉）2倍盛",
+					"price": 1130
+				}
+			]
+		},
+		{
+			"name": "山かけ牛皿定食",
+			"variations": [
+				{
+					"variationPrefix": "並盛",
+					"price": 840
+				},
+				{
+					"variationPrefix": "中盛",
+					"price": 1010
+				},
+				{
+					"variationPrefix": "2倍盛",
+					"price": 1190
+				}
+			]
+		},
+		{
+			"name": "鮭定食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 570
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 600
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 650
+				}
+			]
+		},
+		{
+			"name": "さば定食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 570
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 600
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 650
+				}
+			]
+		},
+		{
+			"name": "鮭・納豆定食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 670
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 700
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 750
+				}
+			]
+		},
+		{
+			"name": "さば・納豆定食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 670
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 700
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 750
+				}
+			]
+		},
+		{
+			"name": "納豆定食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 420
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 450
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 500
+				}
+			]
+		},
+		{
+			"name": "お子様牛丼すきすきセット",
+			"variations": [
+				{
+					"variationPrefix": "",
+					"price": 480
+				}
+			]
+		},
+		{
+			"name": "お子様カレーすきすきセット",
+			"variations": [
+				{
+					"variationPrefix": "",
+					"price": 480
+				}
+			]
+		},
+		{
+			"name": "お子様とりそぼろ丼すきすきセット",
+			"variations": [
+				{
+					"variationPrefix": "",
+					"price": 480
+				}
+			]
+		},
+		{
+			"name": "ソーセージエッグ朝食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 420
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 450
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 500
+				}
+			]
+		},
+		{
+			"name": "納豆ソーセージエッグ朝食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 490
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 520
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 570
+				}
+			]
+		},
+		{
+			"name": "牛小鉢ソーセージエッグ朝食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 520
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 550
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 600
+				}
+			]
+		},
+		{
+			"name": "自社製ベーコンエッグ朝食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 420
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 450
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 500
+				}
+			]
+		},
+		{
+			"name": "納豆ベーコンエッグ朝食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 490
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 520
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 570
+				}
+			]
+		},
+		{
+			"name": "牛小鉢ベーコンエッグ朝食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 520
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 550
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 600
+				}
+			]
+		},
+		{
+			"name": "まぜのっけ朝食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 290
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 320
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 370
+				}
+			]
+		},
+		{
+			"name": "納豆まぜのっけ朝食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 360
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 390
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 440
+				}
+			]
+		},
+		{
+			"name": "牛まぜのっけ朝食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 390
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 420
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 470
+				}
+			]
+		},
+		{
+			"name": "焼鮭まぜのっけ朝食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 420
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 450
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 500
+				}
+			]
+		},
+		{
+			"name": "塩さばまぜのっけ朝食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 420
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 450
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 500
+				}
+			]
+		},
+		{
+			"name": "たまかけ朝食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 290
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 320
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 370
+				}
+			]
+		},
+		{
+			"name": "納豆たまかけ朝食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 360
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 390
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 440
+				}
+			]
+		},
+		{
+			"name": "牛たまかけ朝食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 390
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 420
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 470
+				}
+			]
+		},
+		{
+			"name": "焼鮭たまかけ朝食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 420
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 450
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 500
+				}
+			]
+		},
+		{
+			"name": "塩さばたまかけ朝食",
+			"variations": [
+				{
+					"variationPrefix": "ごはんミニ",
+					"price": 420
+				},
+				{
+					"variationPrefix": "ごはん並盛",
+					"price": 450
+				},
+				{
+					"variationPrefix": "ごはん大盛",
+					"price": 500
 				}
 			]
 		}
@@ -214,91 +1216,87 @@
 		},
 		{
 			"name": "みそ汁",
-			"price": 80
-		},
-		{
-			"name": "とん汁",
-			"price": 190
-		},
-		{
-			"name": "おしんこ",
-			"price": 90
-		},
-		{
-			"name": "たまご",
-			"price": 60
-		},
-		{
-			"name": "おんたま",
-			"price": 80
-		},
-		{
-			"name": "シーザーサラダ",
-			"price": 220
-		},
-		{
-			"name": "サラダ",
-			"price": 160
-		},
-		{
-			"name": "オクラサラダ",
-			"price": 200
-		},
-		{
-			"name": "カットりんご",
 			"price": 110
 		},
 		{
+			"name": "とん汁",
+			"price": 240
+		},
+		{
+			"name": "おしんこ",
+			"price": 100
+		},
+		{
+			"name": "たまご",
+			"price": 90
+		},
+		{
+			"name": "おんたま",
+			"price": 110
+		},
+		{
+			"name": "シーザーサラダ",
+			"price": 240
+		},
+		{
+			"name": "サラダ",
+			"price": 180
+		},
+		{
+			"name": "オクラサラダ",
+			"price": 230
+		},
+		{
+			"name": "カットりんご",
+			"price": 130
+		},
+		{
 			"name": "牛皿",
-			"price": 300
+			"price": 380
 		},
 		{
 			"name": "まぐろたたき皿",
-			"price": 490
+			"price": 550
 		},
 		{
 			"name": "かつぶしオクラ",
 			"price": 150
+		},		
+		{
+			"name": "炙り塩さば",
+			"price": 290
 		},
 		{
-			"name": "季節のひじき煮",
-			"price": 80
-		},
-		{
-			"name": "さば",
-			"price": 280
-		},
-		{
-			"name": "鮭",
-			"price": 280
+			"name": "焼鮭",
+			"price": 290
 		},
 		{
 			"name": "からあげ",
-			"price": 100
+			"price": 140
 		},
 		{
 			"name": "冷やっこ",
-			"price": 130
+			"price": 140
 		},
 		{
 			"name": "納豆",
-			"price": 90
+			"price": 100
 		},
 		{
 			"name": "ごはん",
-			"price": 160
+			"price": 200
 		},
 		{
 			"name": "フライドにんにく",
-			"price": 60
+			"price": 70
 		},
 		{
 			"name": "キムチ",
-			"price": 150
+			"price": 210
 		},
 		{
 			"name": "山かけ(わさび付)",
-			"price": 150
+			"price": 210
 		},
 		{
 			"name": "おろしポン酢",
@@ -306,27 +1304,27 @@
 		},
 		{
 			"name": "高菜明太マヨ",
-			"price": 150
+			"price": 210
 		},
 		{
 			"name": "高菜",
-			"price": 120
+			"price": 140
 		},
 		{
 			"name": "明太マヨ",
-			"price": 40
+			"price": 70
 		},
 		{
 			"name": "青ねぎ",
-			"price": 80
+			"price": 90
 		},
 		{
 			"name": "のり",
-			"price": 30
+			"price": 40
 		},
 		{
 			"name": "マヨネーズ",
-			"price": 50
+			"price": 70
 		},
 		{
 			"name": "ゴマだれ",
@@ -338,7 +1336,43 @@
 		},
 		{
 			"name": "コチュジャンだれ",
-			"price": 40
+			"price": 60
+		},
+		{
+			"name": "チーズ",
+			"price": 200
+		},
+		{
+			"name": "ソーセージ（1本）",
+			"price": 150
+		},
+		{
+			"name": "ほうれん草",
+			"price": 100
+		},
+		{
+			"name": "ささみチキン",
+			"price": 280
+		},
+		{
+			"name": "とろ〜り3種のチーズ",
+			"price": 210
+		},		
+		{
+			"name": "鬼おろしポン酢",
+			"price": 150
+		},
+		{
+			"name": "牛皿ビールセット",
+			"price": 780		
+		},
+		{
+			"name": "冷やっこビールセット",
+			"price": 590		
+		},
+		{
+			"name": "牛カルビビールセット",
+			"price": 990		
 		}
 	]
 }
