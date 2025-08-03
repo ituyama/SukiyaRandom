@@ -2,10 +2,8 @@
 	"main": [
 		{
 			"name": "食べラー・メンマ牛丼",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 580
 				}
@@ -13,10 +11,8 @@
 		},
 		{
 			"name": "にんにく食べラー・メンマ牛丼",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 640
 				}
@@ -24,10 +20,8 @@
 		},
 		{
 			"name": "ピリ辛ゴマだれ食べラー・メンマ牛丼",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 630
 				}
@@ -35,10 +29,8 @@
 		},
 		{
 			"name": "にんにくピリ辛ゴマだれ食べラー・メンマ牛丼",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 690
 				}
@@ -46,10 +38,8 @@
 		},
 		{
 			"name": "牛丼",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 400
 				}
@@ -57,10 +47,8 @@
 		},
 		{
 			"name": "キムチ牛丼",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 550
 				}
@@ -68,10 +56,8 @@
 		},
 		{
 			"name": "ねぎ玉牛丼",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 550
 				}
@@ -79,10 +65,8 @@
 		},
 		{
 			"name": "とろ〜り3種のチーズ牛丼",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 580
 				}
@@ -90,10 +74,8 @@
 		},
 		{
 			"name": "おろしポン酢牛丼",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 550
 				}
@@ -101,10 +83,8 @@
 		},
 		{
 			"name": "高菜明太マヨ牛丼",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 550
 				}
@@ -112,10 +92,8 @@
 		},
 		{
 			"name": "わさび山かけ牛丼",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 550
 				}
@@ -123,10 +101,8 @@
 		},
 		{
 			"name": "にんにくファイヤー牛丼",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 520
 				}
@@ -134,10 +110,8 @@
 		},
 		{
 			"name": "マヨにんにくファイヤー牛丼",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 570
 				}
@@ -145,10 +119,8 @@
 		},
 		{
 			"name": "食べラー・メンマ牛丼ライト",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 660
 				}
@@ -156,10 +128,8 @@
 		},
 		{
 			"name": "牛丼ライト",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 480
 				}
@@ -167,10 +137,8 @@
 		},
 		{
 			"name": "キムチ牛丼ライト",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 630
 				}
@@ -178,10 +146,8 @@
 		},
 		{
 			"name": "ねぎ玉牛丼ライト",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 630
 				}
@@ -189,10 +155,8 @@
 		},
 		{
 			"name": "とろ〜り３種のチーズ牛丼ライト",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 660
 				}
@@ -200,10 +164,8 @@
 		},
 		{
 			"name": "おろしポン酢牛丼ライト",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 630
 				}
@@ -211,10 +173,8 @@
 		},
 		{
 			"name": "高菜明太マヨ牛丼ライト",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 630
 				}
@@ -222,10 +182,8 @@
 		},
 		{
 			"name": "わさび山かけ牛丼ライト",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 630
 				}
@@ -233,10 +191,8 @@
 		},
 		{
 			"name": "かつぶしオクラ牛丼ライト",
-			"defaultVariationKey": "nami",
 			"variations": [
 				{
-					"key": "nami",
 					"variationPrefix": "並盛",
 					"price": 630
 				}
