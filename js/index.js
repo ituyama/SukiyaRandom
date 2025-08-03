@@ -16,15 +16,13 @@ function ChoiceSideMenu(menu) {
 
 function ChoiceRandom(menu) {
 	const firstChoice = ChoiceGyudon(menu);
-	const defaultVariation = firstChoice.variations.find(
-		(v) => v.key === firstChoice.defaultVariationKey,
-	);
+	const randomVariation = firstChoice.variations[getRandomInt(0, firstChoice.variations.length)];
 
-	let price = defaultVariation.price;
+	let price = randomVariation.price;
 	const MenuList = [
-		firstChoice.name + `（${defaultVariation.variationPrefix}）`,
+		firstChoice.name + (randomVariation.variationPrefix ? `（${randomVariation.variationPrefix}）` : ''),
 	];
-	const MenuPriceList = [defaultVariation.price];
+	const MenuPriceList = [randomVariation.price];
 	const TotalList = [{ name: MenuList[0], price: MenuPriceList[0] }];
 
 	while (price < 1000) {
